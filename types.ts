@@ -41,5 +41,8 @@ export interface HandPositions {
 }
 
 export const COLORS = {
-    
-}
+    left: '#ef4444', // red light saber
+    right: '#3b82f6',
+    track: '#111111',
+    hittable: '#ffffff'   
+};
