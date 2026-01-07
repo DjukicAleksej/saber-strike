@@ -20,3 +20,19 @@ export enum CutDirection {
 }
 
 
+export interface NoteData {
+    id: string;
+    time: number;//reach layr time in seconds
+    lineIndex: number; // 0-3 (horizontal position)
+    lineLayer: number; //0-2 (vertical pos)
+    type: HandType;
+    cutDirection: CutDirection;
+    hit?: boolean;
+    missed?: boolean;
+    hitTime?: number; //time when hit occured
+}
+
+
+export interface HandPositions {
+    left: THREE.Vector3 | null;
+}
