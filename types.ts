@@ -35,4 +35,11 @@ export interface NoteData {
 
 export interface HandPositions {
     left: THREE.Vector3 | null;
+    right: THREE.Vector3 | null;
+    leftVelocity: THREE.Vector3;
+    rightVelocity: THREE.Vector3;
+}
+
+export const COLORS = {
+    
 }
